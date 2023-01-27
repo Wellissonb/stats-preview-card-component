@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px){
+
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1500px;
+        height: 600px;
+
+    }
+
+    #imagem{
+        background-image: url(../images/image-header-desktop.jpg);
+        background-position: center center;
+        width: 50%;
+        height: 100%;
+    }
+
+    #conteudo{
+        padding: 0px 0px 0px 0px;
+        width: 50%;
+       text-align: unset;
+       
+    }
+
+    h1{
+        font-size: 3em;
+        margin-top: 100px;
+        width: 500px;
+    }
+
+    p{
+        font-weight: 700;
+        
+    }
+
+    .elementos{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #principal{
+        margin-top: 40px;
+        margin-bottom: 105px;
+        width: 438px;
+        line-height: 30px;
+    }
+    #valores{
+       display: flex;
+       flex-direction: row;
+       gap: 20px;
+    }
+
+    .marginleft{
+        margin-left: 90px;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+    
+}
