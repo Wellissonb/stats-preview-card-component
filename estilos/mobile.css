@@ -30,8 +30,18 @@ main{
     position: relative;
     top: 50%;
     left: 50%;
+    transition: width 1s, heigth 1s;
+    transition-timing-function: ease;
 
+    animation: anim 1s linear;
+    @keyframes anim{
+          from{width: 555px; height: 220px;}
+          to{width: 1110; height: 440px;}
+          
+      }
+  
 
+    margin: 100px 0px;
     background-color: var(--Darkdesaturatedbluecardbackground);
     width: 370px;
     border-radius: 15px;
@@ -62,7 +72,7 @@ main{
 }
 
 p{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: lighter;
     color: var(--Slightlytransparentwhitemainparagraph);
