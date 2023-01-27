@@ -33,14 +33,6 @@ main{
     transition: width 1s, heigth 1s;
     transition-timing-function: ease;
 
-    animation: anim 1s linear;
-    @keyframes anim{
-          from{width: 555px; height: 220px;}
-          to{width: 1110; height: 440px;}
-          
-      }
-  
-
     margin: 100px 0px;
     background-color: var(--Darkdesaturatedbluecardbackground);
     width: 370px;

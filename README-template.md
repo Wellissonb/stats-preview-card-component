@@ -7,7 +7,7 @@
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Wellissonb/stats-preview-card-component)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Add live site URL here](https://wellissonb.github.io/stats-preview-card-component/)
 
 ## My process
 

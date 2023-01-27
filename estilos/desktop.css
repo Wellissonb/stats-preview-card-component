@@ -7,10 +7,7 @@
         flex-direction: row-reverse;
         width: 1110px;
         height: 440px;
-        margin: unset;
-       
-        
-    
+        margin: unset;   
         animation: anim 1s linear;
     }
 
