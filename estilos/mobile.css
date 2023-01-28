@@ -44,19 +44,13 @@ main{
 #imagem{
     background-image: url(../images/image-header-mobile.jpg);
     background-size: cover;
-    background-position: top center;
-    position: relative;
-
-
+    background-color: hsl(277, 64%, 61%);
+    background-blend-mode: multiply;
+    opacity: 0.8;
     height: 240px;
 }
 
-#fundo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: hsla(277, 76%, 44%, 0.479);
-}
+
 
 #conteudo{
         text-align: center;
